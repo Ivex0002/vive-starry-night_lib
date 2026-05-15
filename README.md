@@ -46,6 +46,14 @@ npm install vive-starry-night
 
 ---
 
+## Requirements
+
+- React 18+
+- Browser environment required
+- Canvas2D support required
+
+---
+
 ## Basic Usage
 
 ```tsx
