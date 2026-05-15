@@ -2,7 +2,7 @@ import type { StarConfig } from "./type";
 
 const SHAPE: StarConfig["shape"] = { type: "cross" };
 
-export const INIT_VAL: StarConfig[] = [
+export const DEFAULT_STAR_CONFIGS: StarConfig[] = [
   {
     color: "#ffffff",
     density: 0.08,

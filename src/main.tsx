@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { init } from "./init";
 import type { StarConfig } from "./type";
-import { INIT_VAL } from "./INIT_VAL";
+import { DEFAULT_STAR_CONFIGS } from "./INIT_VAL";
 
 interface Props {
   starConfigs?: StarConfig[];
@@ -10,7 +10,7 @@ interface Props {
 }
 
 export function ViveStarryNight({
-  starConfigs = INIT_VAL,
+  starConfigs = DEFAULT_STAR_CONFIGS,
   className,
   style,
 }: Props) {
