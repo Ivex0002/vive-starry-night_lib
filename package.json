@@ -1,6 +1,6 @@
 {
   "name": "vive-starry-night",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "repository": {
     "type": "git",
@@ -31,5 +31,12 @@
     "tsup": "^8.5.1",
     "typescript": "^6.0.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "starry-night",
+    "star",
+    "night-sky",
+    "canvas",
+    "background"
+  ]
 }
