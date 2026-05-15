@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { init } from "./init";
 import type { StarConfig } from "./type";
-import { DEFAULT_STAR_CONFIGS } from "./INIT_VAL";
+import { DEFAULT_STAR_CONFIGS } from "./DEFAULT_STAR_CONFIGS";
 
 interface Props {
   starConfigs?: StarConfig[];
