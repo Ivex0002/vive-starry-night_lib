@@ -36,7 +36,8 @@ export interface StarConfig {
   shape: ShapeConfig;
 }
 
-export type ShapeConfig =
+// TODO : svg
+type ShapeConfig =
   | {
       type: ShapeType;
     }
