@@ -55,10 +55,8 @@ export interface Position {
  * each star's info
  */
 export interface StarInfo {
-  color: string;
   position: Position;
   lifeCycle: number;
-  twinkle: number;
   createdAt: number;
   size: number;
 }

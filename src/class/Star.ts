@@ -15,17 +15,9 @@ export class Star {
     Object.assign(this.info, this.createState(config));
   }
 
-  private init(config: StarConfig): StarInfo {
+  private init(config: StarConfig) {
     return {
-      ...this.createStatic(config),
       ...this.createState(config),
-    };
-  }
-
-  private createStatic(config: StarConfig) {
-    return {
-      color: config.color,
-      twinkle: config.twinkle,
     };
   }
 

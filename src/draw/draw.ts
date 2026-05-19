@@ -10,12 +10,12 @@ export function draw(
   const height = ctx.canvas.height;
 
   for (const bucket of buckets) {
+    const { color, twinkle } = bucket.config;
     const _shape = bucket.config.shape;
     const path = _shape.type === "custom" ? _shape.path : shape[_shape.type];
 
     for (const star of bucket.stars) {
-      const { position, color, size, twinkle, createdAt, lifeCycle } =
-        star.info;
+      const { position, size, createdAt, lifeCycle } = star.info;
 
       const x = position.x * width;
       const y = position.y * height;
